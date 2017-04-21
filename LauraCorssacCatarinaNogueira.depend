@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1466944793 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\atualizapontuacao.c
+	"header.h"
+
+1466946300 c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\header.h
+	<locale.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+	<stdlib.h>
+	<stdlib.h>
+	<time.h>
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\carregapontuacao.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\deslocacorpo.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\impressao_das_pedras.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\impressaoarquivotexto.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\imprimecobra.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\informacoesaojogador.c
+	"header.h"
+
+1466946596 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\jogo.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\le_arquivo_texto.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\macas.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\main.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\movimentacaocobra.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\opcaocontinuar.c
+	"header.h"
+
+1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\ratos.c
+	"header.h"
+
+1466945277 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\manual.c
+	"header.h"
+
+1466945277 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\menu.c
+	"header.h"
+
+1466946300 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\reestartnasvariaveis.c
+	"header.h"
+
