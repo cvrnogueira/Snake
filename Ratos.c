@@ -17,7 +17,8 @@ void Gerador_de_ratos( int linha, int coluna, int codigo, int contadorderatos, i
                        int poscobracoluna[], char andacobrinha[linha][coluna], int *appleline, int *applecolumn)
 {
     int aleatoriocoluna, aleatoriolinha, sair=0, cont;
-
+    //As duas primeiras são números aleatórios candidatos a serem coordenadas dos ratos. A terceira é uma flag utilizada para
+    //saber se foi encontrado coordenadas válidas para os ratos. A última é um contados para os laços.
     if (codigo ==1)
     {
 
@@ -30,17 +31,17 @@ void Gerador_de_ratos( int linha, int coluna, int codigo, int contadorderatos, i
             if (aleatoriolinha == *appleline && aleatoriocoluna == *applecolumn)
                 sair=0;
 
-            if(andacobrinha[aleatoriolinha][aleatoriocoluna]=='*')///ve se o andacobrinha dos randoms dados é pedra
+            if(andacobrinha[aleatoriolinha][aleatoriocoluna]=='*')//ve se o andacobrinha dos randoms dados é pedra
                 sair=0;
 
             for (cont=tamanhocobra; cont >0; cont --)
-                if (poscobralinha[cont] == aleatoriolinha) ///confere se n é no corpo
+                if (poscobralinha[cont] == aleatoriolinha) //confere se n é no corpo
                     if (poscobracoluna[cont] == aleatoriocoluna)
                         sair=0;
 
         } while (sair == 0);
 
-        arrayrandomlinha[contadorderatos] = aleatoriolinha; ///Se os números gerados são coordenadas válidas, serão armazenados em dois vetores
+        arrayrandomlinha[contadorderatos] = aleatoriolinha; //Se os números gerados são coordenadas válidas, serão armazenados em dois vetores
         arrayrandomcoluna[contadorderatos] = aleatoriocoluna;
         gotoxy (arrayrandomcoluna[contadorderatos], arrayrandomlinha[contadorderatos]);
         printf ("&");

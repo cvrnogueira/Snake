@@ -7,10 +7,10 @@ void Le_arquivo_texto(char andacobrinha[LINHA][COLUNA], int *linha, int *coluna,
     char linhatexto[LINHA][COLUNA];
     FILE *arq;
 
-if (ganhou==1)
-    arq=fopen("nivel2.3.txt", "r");
-else
-    arq = fopen("nivel1.3.txt", "r");
+    if (ganhou==1)//se a pessoa comeu uma maçã, é aberto o arquivo do nivel dois
+        arq=fopen("nivel2.3.txt", "r");
+    else
+        arq = fopen("nivel1.3.txt", "r");
 
     if (arq == NULL)
         puts("Erro na abertura do mapa, desculpe pelo incoveniente");
@@ -25,7 +25,7 @@ else
 
         while(!feof(arq))
         {
-            fgets(linhatexto[i], *coluna+2, arq);
+            fgets(linhatexto[i], *coluna+2, arq);//mais dois na coluna pela rzão do \0 e \n
             //printf("|%s|%d\n", linhatexto[i], strlen(linhatexto[i]));
             //int comp=strlen(linhatexto[i]);
             //linhatexto[comp-1]='\0';
@@ -35,9 +35,9 @@ else
 
     for(i=0; i<*linha; i++)
     {
-        for(j=0; j<*coluna+2;j++)
+        for(j=0; j<*coluna+2; j++)//mais dois na coluna pela rzão do \0 e \n
         {
-            andacobrinha[i][j] = linhatexto[i][j];
+            andacobrinha[i][j] = linhatexto[i][j];//todos caracteres que estao na linhatexto são copiados para a andacbrinha(que é o mapa do jogo)
         }
     }
 

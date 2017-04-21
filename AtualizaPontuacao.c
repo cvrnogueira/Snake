@@ -44,9 +44,9 @@ void AtualizaPontuacao(int pontuacao[], int pontuacaoatual)
             puts("Error");
     }
     fclose(arq);//fecha arquivo
-printf("Sua pontuacao %d \n", pontuacaoatual);//imprime a pontuação
-printf("\n\n");
-puts("Ranking atualizado: ");//imprime o ranking atualizado
+    printf("Sua pontuacao %d \n", pontuacaoatual);//imprime a pontuação
+    printf("\n\n");
+    puts("Ranking atualizado: ");//imprime o ranking atualizado
     CarregaPontuacao(pontuacao);
     system("pause");
 
