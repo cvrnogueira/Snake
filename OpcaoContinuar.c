@@ -6,7 +6,7 @@
 int OpcaoContinuar(int nrovidas, int *tamanhocobrinha, int pontuacao[15])
 {
     system ("cls");
-    int codigo;//Opção escolhida pelo usuário
+    int codigo;///NAO SEI ESSA VARIÁVEL(SEPA PODERÍAMOS MUDAR O GAMEOVER PARA CONTINUAR A JOGAR COMO 0, PQ DAI GAMEOVER SERIA FALSE)
     int gameover;//Se gameover é zero a pessoa volta para o menu inial, se gameover é um, a pessoa ainda pode jogar novamente
     if(nrovidas==0)//caso a pessoa perca, deve-se ver se o numero de vidas dela é maior do que zero, se não é a pessoa volta para o menu pois deu game over
     {

@@ -57,17 +57,17 @@ char validaInput(char movimentacaocobra, int *contadordemov10)
         }
 
         if (possivelmov == 'P')
-        {
-            getch ();
-            //gotoxy (60, 30);
-            //system("pause");
-        }
+            {
+                getch ();
+                //gotoxy (60, 30);
+                //system("pause");
+          }
 
         if( possivelmov ==movimentacaocobra)//se for o mesmo movimento limpa-se o buffer e continua no movimento anterior( para garantir que a função não lerá o movimento duas vezes)
             fflush(stdin);
         //if( movimentacaocobra== 'P')///ta diminuinfo UM PEDAÇO DA COOBRA!COMO FAÇO???
         //se a movimentação for P é o pause no jogo
-        //movimentacaocobra=consisteFirstMov(contadordemov10);
+           //movimentacaocobra=consisteFirstMov(contadordemov10);
 
         if(movimentacaocobra=='Q')//se a movimentação for Q ou esc(27), vai direto para o menu
             menu();
@@ -86,7 +86,7 @@ char consisteFirstMov(int *contadordemov10, int pontuacao[])//a cobra começa par
     {
         possivelmov=getch();
         if(toupper(possivelmov)=='Q')//se a movimentação for Q ou esc(27), vai direto para o menu
-            menu();
+           menu();
         if(toupper(possivelmov)==27)
             menu();
         if ((toupper(possivelmov)=='P' )|| (toupper(possivelmov)!='A' && toupper(possivelmov)!='S' && toupper(possivelmov)!='W'))
@@ -94,7 +94,7 @@ char consisteFirstMov(int *contadordemov10, int pontuacao[])//a cobra começa par
             movimentacaocobra='D';//p ficar pausada pois a pessoa digitou caracteres não permitidos ou pause
         }
         else  movimentacaocobra = toupper(possivelmov);//se for um caractere permitido, cai no else e dá-se toupper a movimentação da cobra
-        if(possivelmov==-32)//se for as setas que forem clicadas pelo usuário, é necessário ver se é -32, se sim, quer dizer que são setas
+       if(possivelmov==-32)//se for as setas que forem clicadas pelo usuário, é necessário ver se é -32, se sim, quer dizer que são setas
         {
             possivelmov=(getch());//e então pega o segundo char, que é a movimentação dada pelas setas(-32 é o indentificador e o segundo numero é o movimento mesmo)
             switch(possivelmov)

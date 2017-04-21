@@ -31,7 +31,7 @@
 1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\informacoesaojogador.c
 	"header.h"
 
-1466946101 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\jogo.c
+1466946596 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\jogo.c
 	"header.h"
 
 1466945226 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\le_arquivo_texto.c
@@ -61,10 +61,10 @@
 1466946300 source:c:\users\user\desktop\listas com soluções discreta 2013-1\lauracorssaccatarinanogueira\reestartnasvariaveis.c
 	"header.h"
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\atualizapontuacao.c
+1466944793 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\atualizapontuacao.c
 	"header.h"
 
-1466962658 c:\users\laura\documents\aula\c\agr siim\header.h
+1466946300 c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\header.h
 	<locale.h>
 	<stdio.h>
 	<ctype.h>
@@ -75,234 +75,51 @@
 	<stdlib.h>
 	<time.h>
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\carregapontuacao.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\carregapontuacao.c
 	"header.h"
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\deslocacorpo.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\deslocacorpo.c
 	"header.h"
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\impressao_das_pedras.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\impressao_das_pedras.c
 	"header.h"
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\impressaoarquivotexto.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\impressaoarquivotexto.c
 	"header.h"
 
-1466947212 source:c:\users\laura\documents\aula\c\agr siim\imprimecobra.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\imprimecobra.c
 	"header.h"
 
-1466962657 source:c:\users\laura\documents\aula\c\agr siim\jogo.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\informacoesaojogador.c
 	"header.h"
 
-1466961754 source:c:\users\laura\documents\aula\c\agr siim\le_arquivo_texto.c
+1466946596 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\jogo.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\macas.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\le_arquivo_texto.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\main.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\macas.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\manual.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\main.c
 	"header.h"
 
-1466951439 source:c:\users\laura\documents\aula\c\agr siim\menu.c
+1466945277 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\manual.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\movimentacaocobra.c
+1466945277 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\menu.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\opcaocontinuar.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\movimentacaocobra.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\ratos.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\opcaocontinuar.c
 	"header.h"
 
-1466947213 source:c:\users\laura\documents\aula\c\agr siim\reestartnasvariaveis.c
+1466945226 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\ratos.c
 	"header.h"
 
-1466962658 source:c:\users\laura\documents\aula\c\agr siim\informacoesaojogador.c
-	"header.h"
-
-1466965105 source:c:\users\user\desktop\ultimasnake\atualizapontuacao.c
-	"header.h"
-
-1466964296 c:\users\user\desktop\ultimasnake\header.h
-	<locale.h>
-	<stdio.h>
-	<ctype.h>
-	<string.h>
-	<windows.h>
-	<conio.h>
-	<stdlib.h>
-	<stdlib.h>
-	<time.h>
-
-1466965105 source:c:\users\user\desktop\ultimasnake\carregapontuacao.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\deslocacorpo.c
-	"header.h"
-
-1466965243 source:c:\users\user\desktop\ultimasnake\impressao_das_pedras.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\impressaoarquivotexto.c
-	"header.h"
-
-1466965105 source:c:\users\user\desktop\ultimasnake\imprimecobra.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\informacoesaojogador.c
-	"header.h"
-
-1466966162 source:c:\users\user\desktop\ultimasnake\jogo.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\le_arquivo_texto.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\macas.c
-	"header.h"
-
-1466966119 source:c:\users\user\desktop\ultimasnake\main.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\manual.c
-	"header.h"
-
-1466965105 source:c:\users\user\desktop\ultimasnake\movimentacaocobra.c
-	"header.h"
-
-1466964298 source:c:\users\user\desktop\ultimasnake\opcaocontinuar.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\ratos.c
-	"header.h"
-
-1466965970 source:c:\users\user\desktop\ultimasnake\reestartnasvariaveis.c
-	"header.h"
-
-1466966162 source:c:\users\user\desktop\ultimasnake\menu.c
-	"header.h"
-
-1466966570 source:c:\users\laura\documents\aula\c\ultimaaaaa\atualizapontuacao.c
-	"header.h"
-
-1466966571 c:\users\laura\documents\aula\c\ultimaaaaa\header.h
-	<locale.h>
-	<stdio.h>
-	<ctype.h>
-	<string.h>
-	<windows.h>
-	<conio.h>
-	<stdlib.h>
-	<stdlib.h>
-	<time.h>
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\carregapontuacao.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\deslocacorpo.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\impressao_das_pedras.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\impressaoarquivotexto.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\imprimecobra.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\informacoesaojogador.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\le_arquivo_texto.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\macas.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\main.c
-	"header.h"
-
-1466966770 source:c:\users\laura\documents\aula\c\ultimaaaaa\manual.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\menu.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\movimentacaocobra.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\opcaocontinuar.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\ratos.c
-	"header.h"
-
-1466966571 source:c:\users\laura\documents\aula\c\ultimaaaaa\reestartnasvariaveis.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\atualizapontuacao.c
-	"header.h"
-
-1466967224 c:\users\user\desktop\snake\header.h
-	<locale.h>
-	<stdio.h>
-	<ctype.h>
-	<string.h>
-	<windows.h>
-	<conio.h>
-	<stdlib.h>
-	<stdlib.h>
-	<time.h>
-
-1466967224 source:c:\users\user\desktop\snake\carregapontuacao.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\deslocacorpo.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\impressao_das_pedras.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\impressaoarquivotexto.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\imprimecobra.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\informacoesaojogador.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\jogo.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\le_arquivo_texto.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\macas.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\main.c
-	"header.h"
-
-1466967224 source:c:\users\user\desktop\snake\manual.c
-	"header.h"
-
-1466967226 source:c:\users\user\desktop\snake\menu.c
-	"header.h"
-
-1466967226 source:c:\users\user\desktop\snake\movimentacaocobra.c
-	"header.h"
-
-1466967226 source:c:\users\user\desktop\snake\opcaocontinuar.c
-	"header.h"
-
-1466967226 source:c:\users\user\desktop\snake\ratos.c
-	"header.h"
-
-1466967226 source:c:\users\user\desktop\snake\reestartnasvariaveis.c
+1466946300 source:c:\users\user\desktop\outros semestres\1 semestre 20161\lauracorssaccatarinanogueira\reestartnasvariaveis.c
 	"header.h"
 

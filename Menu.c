@@ -7,8 +7,7 @@
 void menu (int pontuacao[])
 {
     setlocale(LC_ALL, "portuguese");//colocar a linguagem português(aceita acentos, por exemplo)
-    int option;//Opcao do menu desejada pelo usuario
-    system("color 6");//da cor amarela ao menu
+    int option;///N SEI EXPLICAR ESSA AI
 
 
     do
@@ -31,7 +30,7 @@ void menu (int pontuacao[])
         printf("               1- Ranking\n");
         printf("               2- Regras do jogo\n");
         printf("               3- Encerrar\n");
-        printf(" Dica: Caso você não tenha lido as regras, lembre-se que o primeiro movimento NÃO pode ser para direita! #ficadica\n");
+        printf("               Dica: Caso voc}e não leu as regras, lembre-se que o primeiro movimento NÃO pode ser para direita!\n");
         printf("\n");
         while (scanf ("%d", &option) ==0)
         {
@@ -46,7 +45,7 @@ void menu (int pontuacao[])
 
             jogo (pontuacao);
             break;
-        case 1://Um é para ver o ranking, logo chama a CarregaPontuação que mostra o ranking
+        case 1://Um é para ver o ranking, logo chama a LoadPontuação que mostra o ranking
             CarregaPontuacao(pontuacao);
             system("pause");
             break;
@@ -55,11 +54,12 @@ void menu (int pontuacao[])
             break;
             fflush(stdin);
         case 3://3 é para sair, logo imprime-se tchau e sai
-        {
-            printf("Espero que você tenha se divertido! Tchau :D :D\n");
+           {
+            printf("Tchau :D\n");///ACHO Q N TA APAREDENDO ESSE TCHAU
+            system("pause");
             exit(EXIT_SUCCESS);
-        }
-        break;
+           }
+            break;
         default:
             printf("Opção Inválida. Opções válidas somente 0, 1, 2 e 3\n");
             break;
